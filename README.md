@@ -15,11 +15,13 @@ Email Me 👉 ✉️ **abhisekpraharaj246@gmail.com** For Collaboration/Project 
 <div align="center">
 
 ## 🪄 My Holopin Badge Board  
-[![@abhisek250603's Holopin board](https://holopin.me/abhisek250603)](https://holopin.io/@abhisek250603/#badges)
+
+[![Holopin board](https://holopin.me/abhisek250603)](https://holopin.io/@abhisek250603#badges)
 
 ✨ Collecting badges from open-source adventures and tech events! ✨  
 
 </div>
+
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/ryomen7214) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ryomen7214) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/praharaj03) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhisekpraharaj246@gmail.com) 
