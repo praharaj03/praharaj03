@@ -15,7 +15,7 @@ Email Me 👉 ✉️ **abhisekpraharaj246@gmail.com** For Collaboration/Project 
 <div align="center">
 
 ## 🪄 My Holopin Badge Board  
-[![@abhisek250603's Holopin board](https://holopin.me/abhisek250603)](https://holopin.io/@abhisek250603)
+[![@abhisek250603's Holopin board](https://holopin.me/abhisek250603)](https://holopin.io/@abhisek250603/#badges)
 
 ✨ Collecting badges from open-source adventures and tech events! ✨  
 
