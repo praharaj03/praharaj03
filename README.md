@@ -32,9 +32,11 @@ Email Me 👉 ✉️ **abhisekpraharaj246@gmail.com** For Collaboration/Project 
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
 
+<br>
+
 <p align="center">
   <a href="https://www.skyline3d.in/praharaj03">
-    <img src="./skyline3d.png" width="100%" alt="Skyline 3D"/>
+    <img src="./skyline3d.png" width="70%" alt="Skyline 3D"/>
   </a>
 </p>
 
