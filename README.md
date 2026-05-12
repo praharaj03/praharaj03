@@ -34,7 +34,7 @@ Email Me 👉 ✉️ **abhisekpraharaj246@gmail.com** For Collaboration/Project 
 
 <p align="center">
   <a href="https://www.skyline3d.in/praharaj03">
-    <img src="./assets/skyline3d.png" width="900" alt="Skyline 3D"/>
+    <img src="./skyline3d.png" width="100%" alt="Skyline 3D"/>
   </a>
 </p>
 
