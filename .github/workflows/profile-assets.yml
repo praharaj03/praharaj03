@@ -1,10 +1,11 @@
-name: Refresh GitHub Analytics
+name: Refresh GitHub Profile Assets
 
 on:
   push:
     branches: [main]
     paths-ignore:
       - "assets/github-analytics.svg"
+      - "assets/github-contribution-grid-snake.svg"
   schedule:
     - cron: "17 0 * * *"
   workflow_dispatch:
@@ -13,13 +14,13 @@ permissions:
   contents: write
 
 jobs:
-  analytics:
+  profile-assets:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate analytics SVG
+      - name: Generate GitHub analytics
         env:
           GH_USER: praharaj03
         run: |
@@ -28,7 +29,7 @@ jobs:
           from pathlib import Path
 
           user = os.environ['GH_USER']
-          headers = {'Accept': 'application/vnd.github+json', 'User-Agent': 'github-profile-analytics'}
+          headers = {'Accept': 'application/vnd.github+json', 'User-Agent': 'github-profile'}
 
           def get(url):
               req = urllib.request.Request(url, headers=headers)
@@ -46,8 +47,7 @@ jobs:
           langs = {}
           for r in repos:
               try:
-                  data = get(r['languages_url'])
-                  for k, v in data.items():
+                  for k, v in get(r['languages_url']).items():
                       langs[k] = langs.get(k, 0) + v
               except Exception:
                   pass
@@ -55,7 +55,7 @@ jobs:
           total = sum(v for _, v in top) or 1
 
           def esc(s):
-              return (str(s).replace('&','&amp;').replace('<','&lt;').replace('>','&gt;').replace('"','&quot;'))
+              return str(s).replace('&','&amp;').replace('<','&lt;').replace('>','&gt;').replace('"','&quot;')
 
           rows = ''.join(
               f'<text x="42" y="{205+i*28}" fill="#c9d1d9" font-size="15">{esc(k)}</text>'
@@ -67,29 +67,35 @@ jobs:
 
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
           <rect width="900" height="430" rx="18" fill="#0d1117" stroke="#30363d"/>
-          <text x="42" y="48" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="24" font-weight="700">GitHub Analytics</text>
-          <text x="42" y="76" fill="#8b949e" font-family="Arial, sans-serif" font-size="14">praharaj03 · generated from GitHub's public API</text>
-          <g font-family="Arial, sans-serif">
+          <text x="42" y="48" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="24" font-weight="700">GitHub Analytics</text>
+          <text x="42" y="76" fill="#8b949e" font-family="Arial,sans-serif" font-size="14">praharaj03 · refreshed automatically</text>
+          <g font-family="Arial,sans-serif">
             <text x="42" y="120" fill="#58a6ff" font-size="25" font-weight="700">{public_repos}</text><text x="42" y="143" fill="#8b949e" font-size="13">Public repos</text>
             <text x="190" y="120" fill="#58a6ff" font-size="25" font-weight="700">{followers}</text><text x="190" y="143" fill="#8b949e" font-size="13">Followers</text>
             <text x="338" y="120" fill="#58a6ff" font-size="25" font-weight="700">{following}</text><text x="338" y="143" fill="#8b949e" font-size="13">Following</text>
             <text x="486" y="120" fill="#58a6ff" font-size="25" font-weight="700">{stars}</text><text x="486" y="143" fill="#8b949e" font-size="13">Total stars</text>
             <text x="634" y="120" fill="#58a6ff" font-size="25" font-weight="700">{forks}</text><text x="634" y="143" fill="#8b949e" font-size="13">Total forks</text>
           </g>
-          <text x="42" y="178" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="17" font-weight="600">Top languages</text>
-          <g font-family="Arial, sans-serif">{rows}</g>
-          <text x="42" y="400" fill="#6e7681" font-family="Arial, sans-serif" font-size="12">Updated daily · no third-party stats endpoint required</text>
+          <text x="42" y="178" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="17" font-weight="600">Top languages</text>
+          <g font-family="Arial,sans-serif">{rows}</g>
+          <text x="42" y="400" fill="#6e7681" font-family="Arial,sans-serif" font-size="12">Generated from GitHub's public API · no third-party stats server</text>
           </svg>'''
 
           Path('assets').mkdir(exist_ok=True)
           Path('assets/github-analytics.svg').write_text(svg, encoding='utf-8')
           PY
 
-      - name: Commit analytics
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: praharaj03
+          outputs: assets/github-contribution-grid-snake.svg
+
+      - name: Commit generated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-analytics.svg
+          git add assets/github-analytics.svg assets/github-contribution-grid-snake.svg
           git diff --cached --quiet && exit 0
-          git commit -m "chore(profile): refresh GitHub analytics [skip ci]"
+          git commit -m "chore(profile): refresh GitHub assets [skip ci]"
           git push
