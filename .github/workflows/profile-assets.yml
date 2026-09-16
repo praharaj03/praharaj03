@@ -1,0 +1,93 @@
+name: Refresh Profile Assets
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/**"
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  profile-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate profile cards
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: praharaj03
+          cards: overview,contributions,languages,rhythm
+          output-dir: assets/profile
+          themes: light,dark
+          commit: false
+
+      - name: Generate GitHub trophies
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: "username=praharaj03&theme=onedark&no-frame=true&no-bg=true&margin-w=8"
+          path: assets/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README image sources
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("README.md")
+          s = p.read_text(encoding="utf-8")
+
+          old_analytics = '''<img src="https://github-readme-stats.vercel.app/api?username=praharaj03&theme=dark&hide_border=false&include_all_commits=true&count_private=false" width="48%"/>
+
+<img src="https://nirzak-streak-stats.vercel.app/?user=praharaj03&theme=dark&hide_border=false" width="48%"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=praharaj03&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" width="45%"/>'''
+          new_analytics = '''<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/overview.dark.svg" />
+  <img src="./assets/profile/overview.light.svg" width="48%" alt="GitHub overview"/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/contributions.dark.svg" />
+  <img src="./assets/profile/contributions.light.svg" width="48%" alt="GitHub contributions"/>
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/languages.dark.svg" />
+  <img src="./assets/profile/languages.light.svg" width="65%" alt="GitHub languages"/>
+</picture>'''
+          s = s.replace(old_analytics, new_analytics)
+
+          old_activity = '<img src="https://github-readme-activity-graph.vercel.app/graph?username=praharaj03&bg_color=0D1117&color=FFFFFF&line=00E5A8&point=00C6FF&area=true&hide_border=true" width="95%"/>'
+          new_activity = '''<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/rhythm.dark.svg" />
+  <img src="./assets/profile/rhythm.light.svg" width="95%" alt="GitHub contribution activity"/>
+</picture>'''
+          s = s.replace(old_activity, new_activity)
+
+          old_trophy = '<img src="https://github-profile-trophy.vercel.app/?username=praharaj03&theme=radical&no-frame=false&no-bg=false&margin-w=4" width="95%"/>'
+          new_trophy = '<img src="./assets/trophy.svg" width="95%" alt="GitHub trophies"/>'
+          s = s.replace(old_trophy, new_trophy)
+
+          p.write_text(s, encoding="utf-8")
+          PY
+
+      - name: Commit generated assets and README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/profile assets/trophy.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(profile): self-host analytics assets [skip ci]"
+          git push
