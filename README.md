@@ -1,63 +1,309 @@
-# 💫 Hi 👋, I'm Abhisek Praharaj
-**A passionate developer from India**
-
-Email Me 👉 ✉️ **abhisekpraharaj246@gmail.com** For Collaboration/Project or Anything Else. 😊😊
-
-- 🔭 **I’m currently pursuing:** B.Tech> in CSE
-- 🌱 **I’m currently learning:** MERN, NEXT, JAVA....
-- 📫 **How to reach me:** abhisekpraharaj246@gmail.com
-- 😄 **Pronouns:** Praharaj
-- ⚡ **Fun fact:** I Love Tech and Tech Loves Me
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=praharaj03&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+<!-- ===================== HERO ===================== -->
 
 <div align="center">
 
-## 🪄 My Holopin Badge Board  
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f0f0f,50:171717,100:000000&text=Abhisek%20Praharaj&fontColor=ffffff&fontSize=48&fontAlignY=40&desc=Full-Stack%20Developer%20%7C%20Java%20%7C%20Next.js%20%7C%20AI&descAlignY=62&descSize=18&animation=fadeIn" width="100%"/>
 
-[![Holopin board](https://holopin.me/abhisek250603)](https://holopin.io/@abhisek250603#badges)
+<br/>
 
-✨ Collecting badges from open-source adventures and tech events! ✨  
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=FFFFFF&center=true&vCenter=true&width=700&lines=Building+things+that+solve+real+problems+%F0%9F%9A%80;Full-Stack+Developer+in+progress+%F0%9F%92%BB;Java+%7C+Next.js+%7C+React+%7C+MongoDB;Exploring+AI+as+a+developer+tool+%F0%9F%A4%96;Code.+Build.+Learn.+Repeat.+%E2%98%95" alt="Typing SVG" />
+
+<br/><br/>
+
+<a href="mailto:abhisekpraharaj246@gmail.com">
+<img src="https://img.shields.io/badge/Email-ffffff?style=for-the-badge&logo=gmail&logoColor=000000"/>
+</a>
+<a href="https://linkedin.com/in/praharaj03">
+<img src="https://img.shields.io/badge/LinkedIn-ffffff?style=for-the-badge&logo=linkedin&logoColor=000000"/>
+</a>
+<a href="https://github.com/praharaj03">
+<img src="https://img.shields.io/badge/GitHub-ffffff?style=for-the-badge&logo=github&logoColor=000000"/>
+</a>
+<a href="https://instagram.com/ryomen7214">
+<img src="https://img.shields.io/badge/Instagram-ffffff?style=for-the-badge&logo=instagram&logoColor=000000"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=praharaj03&label=PROFILE%20VIEWS&color=ffffff&style=flat-square" />
 
 </div>
-
-
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/ryomen7214) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ryomen7214) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/praharaj03) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhisekpraharaj246@gmail.com) 
-
-<!-- Snake Game Repo View -->
-
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
-
-<br>
-
-<p align="center">
-  <a href="https://www.skyline3d.in/praharaj03">
-    <img src="./skyline3d.png" width="70%" alt="Skyline 3D"/>
-  </a>
-</p>
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?logo=webgl&logoColor=white&style=for-the-badge) ![Appwrite](https://img.shields.io/badge/Appwrite-%23FD366E.svg?style=for-the-badge&logo=appwrite&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![nVIDIA](https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=praharaj03&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=praharaj03&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=praharaj03&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=praharaj03&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=praharaj03&icon=10&color=3)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/praharaj03) 
+<!-- ===================== ABOUT ===================== -->
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🧊 About Me
+
+<table>
+<tr>
+<td width="55%">
+
+### Hey, I'm Abhisek 👋
+
+I'm a **B.Tech CSE student and developer from India**, interested in building practical software and understanding how things work behind the scenes.
+
+Currently focused on:
+
+* 💻 Full-Stack Web Development
+* ⚡ Next.js & React
+* ☕ Java & DSA
+* 🤖 AI-powered applications
+* 🗄️ Backend & databases
+* 🧠 Problem solving & system design
+
+I enjoy turning an idea into something that actually works.
+
+</td>
+
+<td width="45%">
+
+```text
+┌─────────────────────────────┐
+│        CURRENTLY BUILDING    │
+├─────────────────────────────┤
+│                             │
+│  ⚡ Full-Stack Apps         │
+│  🤖 AI Experiments          │
+│  ☕ DSA in Java              │
+│  🌐 Next.js Projects        │
+│  🧠 Real-world Solutions    │
+│                             │
+└─────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⚡ Tech Arsenal
+
+<div align="center">
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=java,js,c,html,css&theme=dark" />
+
+### Frontend
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,vite,threejs&theme=dark" />
+
+### Backend & Database
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,appwrite&theme=dark" />
+
+### Cloud & Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,docker,aws,gcp,vercel,netlify,figma&theme=dark" />
+
+</div>
+
+---
+
+<!-- ===================== CONTRIBUTION ===================== -->
+
+## 🌊 Contribution Flow
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=praharaj03&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" width="95%"/>
+
+</div>
+
+---
+
+<!-- ===================== PROJECTS ===================== -->
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🛒 Meta Mart
+
+A modern e-commerce platform with authentication, payments, wishlist, cart, order tracking and an admin dashboard.
+
+**Stack**
+
+`Next.js` `React` `TypeScript` `Tailwind` `Clerk` `Stripe`
+
+<br/>
+
+<a href="https://meta-mart-sable.vercel.app/">
+<img src="https://img.shields.io/badge/LIVE%20PROJECT-ffffff?style=for-the-badge&logo=vercel&logoColor=000000"/>
+</a>
+
+</td>
+
+<td width="50%">
+
+### 📦 StoreIt
+
+A cloud storage application focused on file management, authentication and data visualization.
+
+**Stack**
+
+`Next.js` `Appwrite` `Tailwind` `shadcn/ui` `React Hook Form`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🎫 Queue Management System
+
+A lightweight queue management system designed to simplify token-based waiting systems.
+
+**Stack**
+
+`React` `Vite` `JavaScript` `Tailwind` `LocalStorage`
+
+</td>
+
+<td width="50%">
+
+### 🤖 AI Experiments
+
+Exploring practical applications of LLMs, AI-assisted development and intelligent developer tools.
+
+**Currently exploring**
+
+`LLMs` `AI APIs` `Prompt Engineering` `Automation`
+
+</td>
+</tr>
+</table>
+
+---
+
+## ☕ Developer Philosophy
+
+<div align="center">
+
+### `Code → Break → Debug → Learn → Build Again`
+
+<br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="80%"/>
+
+</div>
+
+---
+
+<!-- ===================== GITHUB STATS ===================== -->
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=praharaj03&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&include_all_commits=true&count_private=false" height="180"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=praharaj03&hide_border=true&background=0d1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=aaaaaa&dates=777777" height="180"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=praharaj03&layout=compact&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=aaaaaa&langs_count=8" height="180"/>
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=praharaj03&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7"/>
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/praharaj03/praharaj03/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+
+</div>
+
+---
+
+## 🎖️ Holopin Journey
+
+<div align="center">
+
+<a href="https://holopin.io/@abhisek250603#badges">
+
+<img src="https://holopin.me/abhisek250603" alt="Holopin Badges"/>
+
+</a>
+
+<br/>
+
+<sub>Collecting badges from open-source adventures, hackathons and tech events 🚀</sub>
+
+</div>
+
+---
+
+## 🧠 Currently Learning
+
+<div align="center">
+
+|         Area         | Focus                                    |
+| :------------------: | :--------------------------------------- |
+|      ☕ **Java**      | DSA • Algorithms • Problem Solving       |
+|     ⚡ **Next.js**    | Full-Stack Applications • App Router     |
+|       🤖 **AI**      | LLMs • AI APIs • AI-assisted Development |
+|    🏗️ **Backend**   | APIs • Databases • Authentication        |
+| 🧩 **System Design** | Scalable Application Architecture        |
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+<a href="mailto:abhisekpraharaj246@gmail.com">
+<img src="https://img.shields.io/badge/Let's%20Build%20Something-ffffff?style=for-the-badge&logo=gmail&logoColor=000000"/>
+</a>
+
+<br/><br/>
+
+<a href="https://linkedin.com/in/praharaj03">
+<img src="https://img.shields.io/badge/LinkedIn-ffffff?style=flat-square&logo=linkedin&logoColor=000000"/>
+</a>
+&nbsp;
+<a href="https://github.com/praharaj03">
+<img src="https://img.shields.io/badge/GitHub-ffffff?style=flat-square&logo=github&logoColor=000000"/>
+</a>
+&nbsp;
+<a href="https://instagram.com/ryomen7214">
+<img src="https://img.shields.io/badge/Instagram-ffffff?style=flat-square&logo=instagram&logoColor=000000"/>
+</a>
+&nbsp;
+<a href="mailto:abhisekpraharaj246@gmail.com">
+<img src="https://img.shields.io/badge/Email-ffffff?style=flat-square&logo=gmail&logoColor=000000"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### ✨ Thanks for visiting my profile
+
+**If you find something interesting here, feel free to explore my repositories.**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:000000,50:171717,100:0f0f0f"/>
+
+</div>
