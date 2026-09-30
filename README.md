@@ -212,6 +212,14 @@ Practical experiments with LLMs, AI APIs, prompt engineering, AI-assisted develo
 
 </div>
 
+# ☕ Support My Work
+
+If you enjoy my projects or find them useful, consider [buying me a coffee](https://buymeacoffee.com/praharaj03). Your support is appreciated!
+
+<a href="https://buymeacoffee.com/praharaj03"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60"/></a>
+
+---
+
 ---
 
 <div align="center">
