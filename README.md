@@ -163,7 +163,7 @@ Practical experiments with LLMs, AI APIs, prompt engineering, AI-assisted develo
 
 <div align="center">
 
-<img src="./assets/github-contribution-grid-snake.svg" width="95%" alt="GitHub contribution snake"/>
+<img src="./assets/github-contribution-grid-snake.svg?v=3" width="95%" alt="GitHub contribution snake"/>
 
 </div>
 
