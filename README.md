@@ -4,7 +4,6 @@
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00E5A8&center=true&vCenter=true&width=750&height=60&lines=Building+real-world+software+%F0%9F%9A%80;Java+%7C+Next.js+%7C+React+%7C+AI;Learning+%E2%80%A2+Building+%E2%80%A2+Breaking+%E2%80%A2+Fixing;Turning+ideas+into+working+products+%F0%9F%92%BB;Coffee+%2B+Code+%2B+Curiosity+%E2%98%95" alt="Typing Animation"/>
 
-<img src="./assets/avi-ascii.svg" width="70%" alt="Animated ASCII portrait generated from my GitHub avatar"/>
 
 <br/><br/>
 
