@@ -98,7 +98,7 @@ jobs:
           import re
           path = Path("assets/github-contribution-grid-snake.svg")
           svg = path.read_text(encoding="utf-8")
-          palette = ":root{--cb:transparent;--cs:#39d353;--ce:#0d1117;--c0:#0d1117;--c1:#0e4429;--c2:#006d32;--c3:#26a641;--c4:#39d353}"
+          palette = ":root{--cb:#0d1117;--cs:#39d353;--ce:#161b22;--c0:#161b22;--c1:#0e4429;--c2:#006d32;--c3:#26a641;--c4:#39d353}"
           svg, count = re.subn(r":root\{[^}]+\}", palette, svg, count=1)
           if count != 1:
               raise SystemExit("Could not find contribution snake palette declaration.")
