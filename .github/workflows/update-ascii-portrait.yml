@@ -1,0 +1,48 @@
+name: Update ASCII profile portrait
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "photo-input/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ascii-profile-portrait
+  cancel-in-progress: false
+
+jobs:
+  generate-portrait:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image library
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Generate animated ASCII SVG from uploaded photo
+        run: python scripts/generate_ascii_portrait.py
+
+      - name: Commit updated portrait
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/avi-ascii.svg
+          if git diff --cached --quiet; then
+            echo "Portrait did not change; nothing to commit."
+          else
+            git commit -m "Update ASCII profile portrait"
+            git push
+          fi
