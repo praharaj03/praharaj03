@@ -91,7 +91,7 @@ jobs:
           github_user_name: praharaj03
           outputs: assets/github-contribution-grid-snake.svg?palette=github-light
 
-      - name: Apply GitHub-style gray cells without borders
+      - name: Apply black background and contribution palette
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -102,6 +102,9 @@ jobs:
           svg, count = re.subn(r":root\{[^}]+\}", palette, svg, count=1)
           if count != 1:
               raise SystemExit("Could not find contribution snake palette declaration.")
+          background = '<rect x="-16" y="-32" width="880" height="192" fill="#0d1117"/>'
+          if background not in svg:
+              svg = re.sub(r"(<svg\b[^>]*>)", r"\1" + background, svg, count=1)
           path.write_text(svg, encoding="utf-8")
           PY
 
