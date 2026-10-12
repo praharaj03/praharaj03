@@ -4,6 +4,10 @@
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00E5A8&center=true&vCenter=true&width=750&height=60&lines=Building+real-world+software+%F0%9F%9A%80;Java+%7C+Next.js+%7C+React+%7C+AI;Learning+%E2%80%A2+Building+%E2%80%A2+Breaking+%E2%80%A2+Fixing;Turning+ideas+into+working+products+%F0%9F%92%BB;Coffee+%2B+Code+%2B+Curiosity+%E2%98%95" alt="Typing Animation"/>
 
+<br/>
+
+<a href="https://praharajdev.vercel.app/"><img src="https://img.shields.io/badge/🌐%20MY%20PORTFOLIO-EXPLORE%20WEBSITE-00E5A8?style=for-the-badge&logo=vercel&logoColor=black" alt="Visit my portfolio website"/></a>
+
 
 <br/><br/>
 
@@ -31,6 +35,7 @@
 - 🌱 Currently learning **MERN • Next.js • Java • AI**
 - 💻 Interested in **Web Development • AI • DSA • Backend**
 - 🧠 Problem solving with **Java + Algorithms**
+- 🌐 Portfolio: **[praharajdev.vercel.app](https://praharajdev.vercel.app/)**
 - 📫 **abhisekpraharaj246@gmail.com**
 - 😄 Pronouns: **Praharaj**
 - ⚡ Fun fact: **I Love Tech and Tech Loves Me**
