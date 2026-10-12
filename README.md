@@ -1,16 +1,23 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&section=header&text=ABHISEK%20PRAHARAJ&fontSize=48&fontColor=ffffff&fontAlignY=40&desc=Developer%20%7C%20Builder%20%7C%20Problem%20Solver&descSize=18&descAlignY=63&animation=twinkling&color=gradient" width="100%"/>
+<img src="./assets/contrib-heatmap.svg" width="95%" alt="Animated GitHub contribution heatmap"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00E5A8&center=true&vCenter=true&width=750&height=60&lines=Building+real-world+software+%F0%9F%9A%80;Java+%7C+Next.js+%7C+React+%7C+AI;Learning+%E2%80%A2+Building+%E2%80%A2+Breaking+%E2%80%A2+Fixing;Turning+ideas+into+working+products+%F0%9F%92%BB;Coffee+%2B+Code+%2B+Curiosity+%E2%98%95" alt="Typing Animation"/>
+<h3><code>abhisek@github ~ $ whoami</code></h3>
 
-<br/><br/>
+<table>
+<tr>
+<td valign="top" width="46%"><img src="./assets/avi-ascii.svg" width="100%" alt="Animated ASCII portrait generated from my GitHub avatar"/></td>
+<td valign="top" width="54%"><img src="./assets/info-card.svg" width="100%" alt="Animated neofetch-style developer information card"/></td>
+</tr>
+</table>
 
-<a href="https://github.com/praharaj03"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/praharajabhisek"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://instagram.com/blank_canvas03"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-<a href="https://facebook.com/ryomen7214"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/></a>
-<a href="mailto:abhisekpraharaj246@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00E5A8&center=true&vCenter=true&width=750&height=55&lines=Java+%7C+DSA+%7C+Next.js+%7C+AI;Learning+%E2%80%A2+Building+%E2%80%A2+Shipping;Turning+ideas+into+working+software" alt="Typing animation"/>
+
+<a href="https://github.com/praharaj03"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/praharajabhisek"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://instagram.com/blank_canvas03"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+<a href="https://facebook.com/ryomen7214"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
+<a href="mailto:abhisekpraharaj246@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
