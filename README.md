@@ -21,7 +21,7 @@ I'm a Computer Science and Engineering student interested in building useful sof
 
 | Project | Overview | Links |
 |---|---|---|
-| **Meta Mart** | Full-stack e-commerce application with product discovery, wishlist, cart, checkout, order tracking, authentication, and admin features. | [Live demo](https://meta-mart-sable.vercel.app/) · [Source code](https://github.com/praharaj03/MetaMart) |
+| **Meta Mart** | Full-stack e-commerce application with product discovery, wishlist, cart, checkout, order tracking, authentication, and admin features. | [Live demo](https://meta-mart-sable.vercel.app/) · [Source code](https://github.com/praharaj03/Meta-Mart) |
 | **PDrive** | Web-based drive project focused on file management and a clean web experience. | [Live demo](https://pdrive-six.vercel.app/) |
 | **DSA Tracker** | A web-based tracker for organizing and monitoring data-structures-and-algorithms practice. | [Live demo](https://praharaj-sheet.vercel.app/) |
 | **Appwrite Keeper** | A project exploring application development with Appwrite. | [Repository](https://github.com/praharaj03/appwrite-keeper) |
